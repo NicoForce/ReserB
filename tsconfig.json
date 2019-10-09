@@ -15,7 +15,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@reserb-app/*": ["libs/*"],
+      "@reserb-app/web": ["xplat/web/index.ts"],
+      "@reserb-app/web/*": ["xplat/web/*"],
+      "@reserb-app/ionic": ["xplat/ionic/index.ts"],
+      "@reserb-app/ionic/*": ["xplat/ionic/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

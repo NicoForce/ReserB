@@ -1,0 +1,8 @@
+{
+  "name": "reserb",
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "app_id": ""
+}

@@ -7,5 +7,21 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "web-reserb-e2e": {
+      "tags": []
+    },
+    "web-reserb": {
+      "tags": []
+    },
+    "ionic-reserb": {
+      "tags": []
+    }
+  }
 }
