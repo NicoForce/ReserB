@@ -8,7 +8,8 @@
     "cap.ios": "npx cap open ios",
     "cap.android": "npx cap open android",
     "cap.copy": "npx cap copy",
-    "cap.update": "npx cap update"
+    "cap.update": "npx cap update",
+    "build": "ionic build"
   },
   "dependencies": {
     "@angular/animations": "file:../../node_modules/@angular/animations",
