@@ -1,2 +1,2 @@
-export * from './components';
 export { UIModule } from './ui.module';
+export * from './components';

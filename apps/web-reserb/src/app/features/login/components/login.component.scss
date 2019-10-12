@@ -1,0 +1,51 @@
+.limiter{
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.container-login{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ebeeef;
+}
+.container-card{
+  width: 500px;
+  background-color: #1386E1;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.card-style{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.style-input{
+  font-size: 20px;
+}
+.style-field{
+  width: 300px;;
+}
+.style-button{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #ebeeef;
+  border-radius: 20px !important  ;
+}
+.style-options{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 70px;
+
+}
+.style-link{
+  color: #000000;
+}

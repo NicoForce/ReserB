@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 // xplat
 import { UIModule } from '@reserb-app/web';
 
-const MODULES = [UIModule];
+const MODULES = [
+  UIModule
+];
 
 @NgModule({
   imports: [...MODULES],

@@ -22,7 +22,9 @@
               "testing/tsconfig.libs.json",
               "testing/tsconfig.libs.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -48,7 +50,9 @@
               "testing/tsconfig.xplat.json",
               "testing/tsconfig.xplat.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -78,7 +82,9 @@
               "apps/web-reserb/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "xplat/web/scss/_index.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "apps/web-reserb/src/styles.scss"
             ],
             "scripts": []
@@ -139,7 +145,10 @@
               "apps/web-reserb/tsconfig.app.json",
               "apps/web-reserb/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/web-reserb/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-reserb/**"
+            ]
           }
         },
         "test": {
@@ -173,8 +182,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/web-reserb-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/web-reserb-e2e/**"]
+            "tsConfig": [
+              "apps/web-reserb-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-reserb-e2e/**"
+            ]
           }
         }
       }
@@ -307,7 +321,9 @@
               "apps/ionic-reserb/tsconfig.spec.json",
               "apps/ionic-reserb/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
