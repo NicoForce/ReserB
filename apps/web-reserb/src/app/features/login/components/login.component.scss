@@ -13,7 +13,7 @@
   background-color: #ebeeef;
 }
 .container-card{
-  width: 500px;
+  width: 470px;
   background-color: #1386E1;
   border-radius: 20px;
   overflow: hidden;
@@ -30,8 +30,23 @@
 .style-input{
   font-size: 20px;
 }
+.style-login{
+  color: #fff;
+  text-align: center;
+}
 .style-field{
   width: 300px;;
+  .mat-form-field-wrapper{
+    .mat-form-field-flex{
+      .mat-form-field-infix{
+        .mat-form-field-label-wrapper{
+          .mat-form-field-label{
+            color: rgba(0,0,0,0.3);
+          }
+        }
+      }
+    }
+  }
 }
 .style-button{
   width: 300px;
