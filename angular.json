@@ -207,7 +207,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "apps/ionic-reserb/www",
+            "outputPath": "dist/apps/ionic-reserb",
             "index": "apps/ionic-reserb/src/index.html",
             "main": "apps/ionic-reserb/src/main.ts",
             "polyfills": "apps/ionic-reserb/src/polyfills.ts",

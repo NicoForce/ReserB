@@ -2,5 +2,5 @@
   "appId": "com.example.app",
   "appName": "reserb",
   "bundledWebRuntime": false,
-  "webDir": "../../dist/apps/ionic-reserb"
+  "webDir": "www"
 }
