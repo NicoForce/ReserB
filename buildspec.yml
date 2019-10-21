@@ -5,7 +5,8 @@ phases:
       nodejs: 10
   pre_build:
     commands:
-      - npm install
+      - npm i
+      - cd apps/ionic-reserb/ && npm i
   build:
     commands:
       - npm run build.ionic.reserb
